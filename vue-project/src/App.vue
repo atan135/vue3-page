@@ -42,11 +42,12 @@ import MainContent from './layout/MainContent.vue';
   background-color: lightcyan;
 }
 .leftpart{
+  min-height: 800px;
   background-color: lightpink;
 }
 .main{
   width: 100%;
-  min-height: 600px;
+  min-height: 800px;
 }
 
 @media (min-width: 1024px) {

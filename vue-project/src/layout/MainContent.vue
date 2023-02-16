@@ -20,9 +20,6 @@ defineProps({
 
 <template>
   <div class="greetings">
-    <a href="#/">Home</a>
-    <a href="#/for-local-storage">ForLocalStorage</a>
-    <a href="#/no-exist-path">Broken link</a>
     <component :is="currentView" />
   </div>
 </template>
